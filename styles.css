@@ -32,3 +32,39 @@ h2 {
 img {
     border-radius: 25px;
   }
+
+.cart {
+  display:inline-block;
+  background-color: #88d0ee;
+  padding: 20px;
+  border-radius: 35px;
+  position: sticky;
+}
+
+#cart {
+  padding-right: 20px;
+}
+
+#a:link, #a:visited{
+  color: white;
+}
+
+#a:hover{
+  color: #008cff;
+}
+
+#a:active{
+  color: #2f00ff;
+}
+
+.acc {
+  display: flex;
+  flex-wrap:wrap; 
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
