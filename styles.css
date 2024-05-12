@@ -4,7 +4,6 @@ div {
   }
 
 
-
 body {
       font-family: serif;
     }
@@ -55,16 +54,4 @@ img {
 
 #a:active{
   color: #2f00ff;
-}
-
-.acc {
-  display: flex;
-  flex-wrap:wrap; 
-  justify-content: space-evenly;
-  margin-top: 100px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
 }
