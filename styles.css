@@ -40,6 +40,10 @@ img {
   position: sticky;
 }
 
+.cart:hover {
+  box-shadow: 0 0 10px #008cff;
+}
+
 #cart {
   padding-right: 20px;
 }
