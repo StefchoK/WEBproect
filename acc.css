@@ -3,7 +3,7 @@
     justify-content: space-between;
   }
 
-.acc {
+.section {
     display: flex;
     flex-wrap:wrap; 
     justify-content: space-evenly;
@@ -32,3 +32,6 @@ div {
     padding: 3px;
     margin: 5px;
   }
+
+
+  
