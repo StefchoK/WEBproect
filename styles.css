@@ -52,6 +52,10 @@ img {
   padding-right: 20px;
 }
 
+#review_icon {
+  padding-right: 13px;
+}
+
 #a:link, #a:visited{
   color: white;
 }
