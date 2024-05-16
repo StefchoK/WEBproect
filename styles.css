@@ -1,3 +1,8 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 div {
     padding: 3px;
     margin: 5px;
@@ -37,7 +42,6 @@ img {
   background-color: #88d0ee;
   padding: 20px;
   border-radius: 35px;
-  position: sticky;
 }
 
 .cart:hover {
