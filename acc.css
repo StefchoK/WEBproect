@@ -7,7 +7,6 @@
     display: flex;
     flex-wrap:wrap; 
     justify-content: space-evenly;
-    margin-top: 100px;
   }
 
 img {
@@ -22,6 +21,7 @@ h2 {
     margin: 20px;
     padding: 40px;
     color: #89CFF0;
+    font-size: 30px;
   }
 
 body {
@@ -33,5 +33,7 @@ div {
     margin: 5px;
   }
 
-
-  
+h4 {
+  color: white;
+  font-size: 20px;
+}
