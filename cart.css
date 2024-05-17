@@ -22,3 +22,49 @@ div {
 body {
     font-family: serif;
   }
+
+.section {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+
+.button:hover {
+    box-shadow: 0 0 10px black;
+  }
+
+.button {
+  width: 200px;
+  height: 200px;
+}
+
+.empty_cart {
+  display:inline-block;
+  background-color: #88d0ee;
+  padding: 0;
+  border-radius: 35px;
+  margin-left: 200px;
+}
+
+.empty_cart:hover {
+box-shadow: 0 0 10px #008cff;
+}
+
+#empty_cart {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.content {
+  border-radius: 35px;
+  border: 3px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  color: white;
+}
