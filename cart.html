@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин Фантазия 8Б</title>
     <link rel="stylesheet" href="cart.css">
+    <script src="cart.js"></script>
 </head>
-<body>
+<body onload="populateCart()">
     <header>
         <section id="shop">
             <div class="container">
@@ -22,7 +23,12 @@
                 <div>   
                     <img src="./images/acc.jpg" width="200" height="200">
                 </div>
-                
+                <div onclick="clearCart()" class="empty_cart" align="center">
+                    <div class="content">
+                    <h4>Изпразване<br>на<br>кошницата</h4>
+                    <img id="empty_cart" src="./images/empty_cart.png" height="50" width="50">
+                    </div>
+                </div>
             </div>
         </section>
     </header>
@@ -34,7 +40,7 @@
     </main>
 
     <footer>
-        <p>items</p>
+        <section id="cart_items" class="section"></section>
     </footer>
 </body>
 </html>
