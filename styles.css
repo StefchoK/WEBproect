@@ -71,3 +71,7 @@ img {
 .button:hover {
   box-shadow: 0 0 10px black;
 }
+
+.h2 {
+  font-size: 30px;
+}
