@@ -49,7 +49,7 @@ body {
   color: #88d0ee;
 }
 
-#writeReviewButton {
+#RRB {
   display: block;
   margin: 0 auto 20px;
   padding: 15px 25px;
@@ -62,7 +62,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-#writeReviewButton:hover {
+#RRB:hover {
   background-color: #0056b3;
 }
 
@@ -76,5 +76,5 @@ body {
 
 .review h2 {
   margin-top: 0;
-  color: #88d0ee;
+  color: #89CFF0;
 }
