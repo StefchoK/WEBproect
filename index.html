@@ -61,5 +61,25 @@
         <h4 id="discount">10% отстъпка за всички поръчки над 100 лв.</h4>
     </footer>
 
+    <script>
+        var colors = ["red", "blue", "green", "purple"];
+        var currentIndex = 0;
+
+        // Function to change text color
+        function changeTextColor(elementId) {
+            var element = document.getElementById(elementId);
+            if (element) {
+                element.style.color = colors[currentIndex];
+                currentIndex = (currentIndex + 1) % colors.length;
+            }
+        }
+
+        // Change color every second
+        setInterval(function() {
+            changeTextColor('discount');
+        }, 1000);
+
+    </script>
+
 </body>
 </html>
