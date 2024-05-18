@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     function saveReviewsToStorage(reviews) {
-      localStorage.setItem("reviews", JSON.stringify(reviews));
+      localStorage.setItem("reviews", 
+      JSON.stringify(reviews));
     }
   
     function createReviewElement(reviewText) {
