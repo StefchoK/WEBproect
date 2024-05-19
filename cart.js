@@ -41,7 +41,7 @@ function removeElement(name) {
     keyArray = keys.split(",");
     let index = keyArray.indexOf(name);
     keyArray.splice(index, 1);
-    let confirm = window.confirm("Do you want to remove this element from the cart?");
+    let confirm = window.confirm("Do you want to remove this product from the cart?");
     if(confirm == 1) {
     if(keyArray.length === 0) {
         localStorage.removeItem(alphaKey);
