@@ -56,6 +56,6 @@ function removeElement(name) {
 }
 
 function clearCart() {
-    localStorage.clear();
+    localStorage.removeItem(alphaKey);
     location.reload();
 }
