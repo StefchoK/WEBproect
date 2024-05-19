@@ -20,10 +20,16 @@ h2 {
   color: #89CFF0;
 }
 
-.advertisement {
-  margin: 20px;
-  padding: 20px;
-  text-indent: 50px;
+#advertisement {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#discount {
+  font-family: Arial, sans-serif;
 }
   
 .container {
