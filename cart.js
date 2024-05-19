@@ -11,6 +11,7 @@ function addToCart(photoPath, name) {
     else keys = name;
     localStorage[alphaKey] = keys;
     localStorage[name] = photoPath;
+    alert("This product has been added to the cart");
 }
 
 function populateCart() {
@@ -40,6 +41,8 @@ function removeElement(name) {
     keyArray = keys.split(",");
     let index = keyArray.indexOf(name);
     keyArray.splice(index, 1);
+    let confirm = window.confirm("Do you want to remove this element from the cart?");
+    if(confirm == 1) {
     if(keyArray.length === 0) {
         localStorage.removeItem(alphaKey);
     }
@@ -48,6 +51,8 @@ function removeElement(name) {
         localStorage[alphaKey] = keys;
     }
     location.reload();
+    }
+    else return;
 }
 
 function clearCart() {
