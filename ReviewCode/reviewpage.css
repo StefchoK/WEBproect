@@ -9,6 +9,25 @@ body {
   color: white;
   padding: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-right: 260px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+#img {
+  padding-top: 30px;
+}
+
+.img:hover {
+  box-shadow: 0 0 30px white;
 }
 
 .container {
